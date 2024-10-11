@@ -1,5 +1,6 @@
 module "blob" {
   source = "./modules/blob"
+  storage_account_name = module.storage.storage_account_name
 }
 
 module "storage" {
