@@ -11,7 +11,7 @@ variable "location" {
 # Storage account name
 variable "storage_account_name" {
     type = string
-    default = "daistorageaccountlast" 
+    default = "storageaccountdai3" 
     description = "Storage account name"
 }
 
