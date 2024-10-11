@@ -1,22 +1,18 @@
-# Resource grouepe name
-variable "resource_groupe_name" {
-  type = string
-  default = "de_p1_resource_group"
-  description = "Resource groupe name"
+variable "resource_group_name" {
+  description = "The name of the resource group"
+  type        = string
+}
+
+variable "location" {
+  description = "The Azure region to deploy resources"
+  type        = string
 }
 
 # Storage account name
 variable "storage_account_name" {
     type = string
-    default = "daistorageaccount" 
+    default = "daistorageaccountlast" 
     description = "Storage account name"
-}
-
-# Location zone
-variable "location_zone" {
-  type = string
-  default = "North Europe"
-  description = "The location zone"
 }
 
 # Account acces tier
