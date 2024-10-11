@@ -1,0 +1,9 @@
+site_name: My Project Documentation
+theme:
+  name: material  # or any other theme you prefer
+
+nav:
+  - Home: index.md
+  - Storage: storage.md
+  - Virtual Machine: vm.md
+  - Web App: webapp.md
