@@ -1,0 +1,12 @@
+subscription_id = "02******-****-****-****-*******"
+network_interface_name = "*******_***_nic"
+resource_group_name = "*****_***_resource_group"
+location = "North ******"
+
+
+vm_name = "*****VM"
+admin_username = "d********"
+admin_password = "**********"
+
+app_service_plane = "*****_****_service_plan"
+webb_app_name = "Your web app site name"
